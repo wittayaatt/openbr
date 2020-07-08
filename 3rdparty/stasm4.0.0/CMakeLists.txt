@@ -20,7 +20,7 @@ endforeach()
 
 # OpenCV 2.4.5
 set(OPENCV_DEPENDENCIES calib3d core features2d flann gpu highgui imgproc ml nonfree objdetect photo video)
-find_package( OpenCV REQUIRED )
+find_package(OpenCV 3.4.10 REQUIRED )
 
 # Compiler flags
 if(UNIX)
