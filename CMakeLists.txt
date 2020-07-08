@@ -87,7 +87,7 @@ if(IOS)
 endif()
 
 # Find OpenCV
-find_package(OpenCV 3.4.10 REQUIRED)
+find_package(OpenCV REQUIRED)
 if(IOS)
   file(GLOB OPENCV_IOS_LIBS "${OpenCV_DIR}/../../lib/*.a")
   list(APPEND BR_THIRDPARTY_LIBS ${OPENCV_IOS_LIBS})
